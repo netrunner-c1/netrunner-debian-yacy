@@ -1,0 +1,19 @@
+Source: netrunner-debian-yacy
+Section: metapackages
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/netrunner-debian-yacy/netrunner-debian-yacy
+
+Package: netrunner-debian-yacy
+Architecture: all
+Depends: netrunner-arm,
+ oracle-java8-installer,
+ oracle-java8-set-default,
+ yacy
+ ${misc:Depends}
+Description: Netrunner Debian YACY edition
+ Netrunner Debian YACY edition
+ .
+ Meta package for Netrunner Debian
