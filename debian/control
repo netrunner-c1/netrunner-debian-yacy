@@ -9,7 +9,6 @@ Homepage: https://github.com/netrunner-debian-yacy/netrunner-debian-yacy
 Package: netrunner-debian-yacy
 Architecture: all
 Depends: netrunner-arm,
-         novnc,
          oracle-java8-installer,
          oracle-java8-set-default,
          yacy,
