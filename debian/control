@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 Homepage: https://github.com/netrunner-debian-yacy/netrunner-debian-yacy
 
-Package: netrunner-debian-yacy
+Package: netrunner-debian-i2p
 Architecture: all
 Depends: i2p,
          netrunner-arm,
@@ -14,7 +14,7 @@ Depends: i2p,
          oracle-java8-set-default,
          yacy,
          ${misc:Depends}
-Description: Netrunner Debian YACY edition
- Netrunner Debian YACY edition
+Description: Netrunner Debian I2P edition
+ Netrunner Debian I2P edition
  .
  Meta package for Netrunner Debian
